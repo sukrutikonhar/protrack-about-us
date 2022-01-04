@@ -1,0 +1,379 @@
+/* =======================MEDIA QUERIES============================ */
+
+/* -------------------NAVIGATION MENU------------------- */
+
+@media only screen and (max-width: 862px) and (min-width: 600px) {
+  .menu-bar {
+    background-image: linear-gradient(135deg, black 40%, white 0%);
+  }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+  .menu-bar {
+    background-image: linear-gradient(135deg, black 50%, white 0%);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .menu-bar {
+    background-image: linear-gradient(135deg, black 55%, white 0%);
+  }
+}
+
+/* -------------------SHOWCASE SLIDER------------------------ */
+
+@media only screen and (max-width: 860px) and (min-width: 600px) {
+  .carousel-caption {
+    top: 160px;
+  }
+
+  .carousel-heading,
+  .btn {
+    right: -55px;
+  }
+
+  .second-heading {
+    top: 80px;
+  }
+
+  .btn {
+    top: 140px;
+  }
+
+  .carousel-heading {
+    font-size: 1.96rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-item {
+    height: 430px;
+  }
+
+  .carousel-caption {
+    top: 180px;
+  }
+
+  .carousel-heading,
+  .btn {
+    right: -30px;
+  }
+
+  .second-heading {
+    top: 60px;
+  }
+
+  .btn {
+    top: 100px;
+  }
+
+  .carousel-heading {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .carousel-item {
+    height: 380px;
+  }
+
+  .carousel-caption {
+    top: 180px;
+  }
+
+  .carousel-heading,
+  .carousel-button {
+    right: -30px;
+  }
+
+  .second-heading {
+    top: 50px;
+  }
+
+  .carousel-button {
+    top: 80px;
+  }
+
+  .carousel-heading {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .black-container {
+    top: 60px;
+  }
+
+  .touch-heading {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .touch-button {
+    font-size: 10px;
+    padding: 8px 30px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .black-container {
+    top: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .black-container {
+    top: 40px;
+  }
+}
+
+
+/* ==================MEDIA QUERIES==================== */
+/* ----------------OUR PROGRAMS-------------------- */
+
+@media only screen and (max-width: 900px) {
+
+  .program-06 {
+    padding: 10px;
+  }
+
+  .program-06 .text-uppercase {
+    color: #f3b53e;
+    font-size: 0.7rem;
+  }
+
+  .program-brief {
+    color: #fff;
+    font-size: 0.5rem;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 768px){
+  .program-image, .program-link {
+    width: 100%;
+    height: 50vw;
+    /* margin: px; */
+  }
+}
+@media only screen and (max-width:426px) {
+  .program-image, .program-link {
+    width: 100%;
+    height: 50vw;
+    /* margin: px; */
+  }
+}
+
+/* -------------------THE TEAM-------------------- */
+
+
+@media screen and (max-width: 1200px) and (min-width: 1024px) {
+
+  /* ----------------------THE TEAM-------------------------- */
+  .team-member-info {
+    padding: 10px 0;
+  }
+
+  .member-name {
+    font-size: 1.3rem;
+    font-weight: 250;
+  }
+
+  .member-designation {
+    font-size: 0.9rem;
+    font-weight: 250;
+    margin-top: -10px;
+  }
+
+  ul.social-list {
+    margin-top: -10px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 966px) {
+
+  /* ----------------------THE TEAM-------------------------- */
+  .team-member-info {
+    padding: 10px 0;
+  }
+
+  .member-name {
+    font-size: 1rem;
+    font-weight: 250;
+  }
+
+  .member-designation {
+    font-size: 0.7rem;
+    font-weight: 250;
+    margin-top: -10px;
+  }
+
+  ul.social-list {
+    margin-top: -10px;
+  }
+}
+
+@media screen and (max-width: 965px) and (min-width: 600px) {
+
+  /* ----------------------THE TEAM-------------------------- */
+  .team-member-info {
+    padding: 10px 0;
+  }
+
+  .member-name {
+    font-size: 0.7rem;
+    font-weight: 250;
+  }
+
+  .member-designation {
+    font-size: 0.5rem;
+    font-weight: 250;
+    margin-top: -10px;
+  }
+
+  ul.social-list {
+    margin-top: -10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .team-member-info {
+    padding: 20px 0;
+  }
+
+  .member-name {
+    font-size: 1rem;
+    font-weight: 250;
+  }
+
+  .member-designation {
+    font-size: 0.8rem;
+    font-weight: 250;
+    /* margin-top: -10px; */
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+  /* ----------------------THE TEAM-------------------------- */
+  .team-member-info {
+    padding: 20px 0;
+  }
+
+  .member-name {
+    font-weight: 250;
+  }
+
+  .member-designation {
+    font-size: 0.65rem;
+    font-weight: 250;
+    margin-top: -10px;
+  }
+
+  ul.social-list {
+    margin-top: 0px;
+    margin-top: -10px;
+  }
+}
+
+/* -------------TESTIMONIALS---------------------- */
+
+
+
+/* ================ABOUT PAGE================= */
+
+
+
+@media only screen and (min-width: 900px) {
+  #our-story .grey-container .row{
+    position: relative;
+  }
+
+  .our-story-column {
+  margin-top: 50px!important;
+  margin-left: 50px;
+  position: absolute;
+  z-index: 2;
+  }
+  
+  .our-story-image img{
+    display: inline-block;
+    top: 0;
+    left: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .our-story-column p {
+    font-size: 0.8rem !important;
+  }
+}
+
+/* ------------------FOUNDERS-SECTION--------------- */
+
+@media only screen and (min-width: 1024px) {
+  #founders-section .white-container .row {
+    position: relative;
+  }
+  
+  .founders-left {
+    position: relative;
+  }
+  
+  .founders-designation {
+    position: absolute;
+    bottom: 0;
+    right: -40px;    
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #founders-section .white-container .row {
+    position: relative;
+  }
+  
+  .founders-left {
+    position: relative;
+  }
+  
+  .founders-designation {
+    position: absolute;
+    bottom: 0;
+    right: -40px;
+    max-width: 90% !important;
+  }
+
+  .founders-designation p {
+    font-size: 0.6em !important;
+    padding: 0;
+  }
+
+  .founders-note{
+    padding: 5px;
+    font-size: 0.7rem;
+  }
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .founders-designation {
+    max-width: 100% !important;
+    height: auto;
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 426px){
+  .founders-designation p {
+    font-size: 0.6rem !important;
+  }
+  .founders-note{
+    padding: 5px;
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .empty-space {
+    height: 600px;
+  }
+}
